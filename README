@@ -1,0 +1,5 @@
+This plugin will display a table containing the basic information about the plugins you currently have installed in your textpattern system. The table can be styled using CSS, as the table has been given the class @plugins-table@. There are currently no special options or switches. To use, simply include the tag @<txp:rsx_plugins_table />@ anywhere you want this table to be displayed.@
+
+You can use the parameter @show_inactive@ to decide if you want to list active or inactive plugins. If it is set to 1, which is the default, inactive plugins will be listed as well as active plugins. If it is set to 0, then only active plugins are displayed.
+
+You can use the parameter @show_description@ to decide if you want to include the description of the plugin in your table or not. If it is set to 1, which is the default, the description of the plugin will be listed. If it is set to 0, then no description will be listed.
